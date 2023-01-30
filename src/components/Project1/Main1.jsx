@@ -8,8 +8,8 @@ const Main1 = () => {
 
   return (
     <main>
-      <section className="container">
-        <h3>(0) birthday today</h3>
+      <section className="container main-1">
+        <h3>{value.length} birthday today</h3>
         <List value={value} />
         <button onClick={() => setValue([])}>Clear All</button>
       </section>

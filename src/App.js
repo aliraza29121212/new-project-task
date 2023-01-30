@@ -3,7 +3,8 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Header from "./Header";
 import "./App.css";
-import Main1 from "./Project1/Main1";
+import Main1 from "./components/Project1/Main1";
+import Main_2 from "./components/project2/Main_2";
 
 const App = () => {
   return (
@@ -12,8 +13,7 @@ const App = () => {
         <Header />
         <Routes>
           <Route exact path="/" element={<Main1 />} />
-          {/*  <Route exact path="/login" element={<Login />} />
-          <Route exact path="/signup" element={<Signup />} /> */}
+          <Route exact path="/main2" element={<Main_2 />} />
         </Routes>
       </BrowserRouter>
     </div>
