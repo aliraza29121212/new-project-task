@@ -1,23 +1,10 @@
 import React from "react";
-// import Container from "react-bootstrap/Container";
-// import Nav from "react-bootstrap/Nav";
-// import Navbar from "react-bootstrap/Navbar";
 import { Link } from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.min.css";
 
 const Header = () => {
   return (
     <div>
-      {/* <Navbar bg="dark" variant="dark">
-        <Container>
-          <Nav className="me-auto">
-            <Nav.Link>
-              <Link to="/" />
-              Project1
-            </Nav.Link>
-          </Nav>
-        </Container>
-      </Navbar> */}
       <nav
         class="navbar navbar-expand-lg navbar-light bg-light "
         style={{
@@ -50,6 +37,11 @@ const Header = () => {
               <li class="nav-item" style={{ cursor: "pointer" }}>
                 <Link class="nav-link" to="/main2">
                   Project2
+                </Link>
+              </li>
+              <li class="nav-item" style={{ cursor: "pointer" }}>
+                <Link class="nav-link" to="/main3">
+                  Project3
                 </Link>
               </li>
             </ul>
