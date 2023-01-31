@@ -44,6 +44,16 @@ const Header = () => {
                   Project3
                 </Link>
               </li>
+              <li class="nav-item" style={{ cursor: "pointer" }}>
+                <Link class="nav-link" to="/main4">
+                  Project4
+                </Link>
+              </li>
+              <li class="nav-item" style={{ cursor: "pointer" }}>
+                <Link class="nav-link" to="/main5">
+                  Project5
+                </Link>
+              </li>
             </ul>
           </div>
         </div>

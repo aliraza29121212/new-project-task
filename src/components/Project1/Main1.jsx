@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import Data from "./Data";
 import List from "./List";
-import "./main1.css";
+import "../Project1/main1.css";
 
 const Main1 = () => {
   const [value, setValue] = useState(Data);

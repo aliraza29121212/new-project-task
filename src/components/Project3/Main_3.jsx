@@ -1,7 +1,7 @@
 import React from "react";
 import Review from "./Review";
 // import { FaGithub } from "react-icons/fa";
-import "./Main_3.css";
+import "../Project3/Main_3.css";
 
 const Main_3 = () => {
   return (
